@@ -1,0 +1,25 @@
+{
+        "name": "trabajo",
+        "version": "1.0.0",
+        "main": "index.js",
+        "scripts": {
+                "test": "echo \"Error: no test specified\" && exit 1",
+                "build-css": "sass --include-path scss scss/index.scss"
+        },
+        "repository": {
+                "type": "git",
+                "url": "git+https://github.com/Fran0698/trabajo_fmendozac2.git"
+        },
+        "keywords": [],
+        "author": "",
+        "license": "ISC",
+        "bugs": {
+                "url": "https://github.com/Fran0698/trabajo_fmendozac2/issues"
+        },
+        "homepage": "https://github.com/Fran0698/trabajo_fmendozac2#readme",
+        "devDependencies": {
+                "nodemon": "^2.0.20",
+                "sass": "^1.55.0"
+        },
+        "description": ""
+}
