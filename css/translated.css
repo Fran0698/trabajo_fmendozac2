@@ -1,0 +1,168 @@
+@charset "UTF-8";
+/*IMPORTS*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
+/*MISC*/
+/*colores*/
+/*font-size, conviene usar em, más que px*/
+/*spacings*/
+/*Normalize*/
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+html {
+  font-family: 62, 5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #cfcfcf;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  display: inline-block;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: #231c07;
+}
+
+p {
+  font-size: 1.6em;
+  color: black;
+}
+
+img {
+  width: 100%;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  max-width: 450px;
+}
+
+.bg-primary {
+  --bs-bg-opacity: 1;
+  background-color: white;
+}
+
+/*PARTIALS*/
+/*header*/
+header {
+  padding: 1.6rem;
+  background-color: #cfcfcf;
+}
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+}
+header .navbar .navbar__link {
+  /* min-width: 180px;
+  max-width: 180px; */
+  width: 100px;
+  height: 68px;
+  display: flex;
+  justify-content: center;
+}
+header .navbar .navbar__link .navbar__img {
+  width: 100%;
+}
+header .navbar .navbar__link .hamburger {
+  display: none;
+  color: #231c07;
+}
+header .navbar .menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.8rem;
+}
+header .navbar .menu__link {
+  padding: 0.8rem;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+}
+header .navbar .menu__link:hover {
+  background-color: black;
+  color: #cfcfcf;
+  transition: all 0.3s ease-in-out;
+}
+
+/*FOOTER*/
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3.2rem;
+  padding: 3.2rem;
+}
+
+/*PAGES*/
+/*BANNERR */
+#banner {
+  display: grid;
+  place-items: center;
+}
+
+/*HISTORIA*/
+#primer-historia {
+  padding: 1.6rem;
+}
+
+#primer-historia div {
+  gap: 3.2rem;
+}
+
+.historia__article {
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.historia__article:first-of-type {
+  border-right: 4px solid white;
+}
+
+.historia__title {
+  font-size: 1.2em;
+  font-weight: 300;
+  margin-bottom: 2.2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.historia__text {
+  font-size: 1.6em;
+  font-weight: 300;
+  margin-bottom: 2.2rem;
+}
+
+/*MEDIAS*/
+@media screen and (max-width: 768px) {
+  .navbar {
+    /* flex-direction: column; */
+    align-items: center;
+  }
+  .navbar .menu {
+    /* justify-content: center; */
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=translated.css.map */

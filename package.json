@@ -4,7 +4,8 @@
         "main": "index.js",
         "scripts": {
                 "test": "echo \"Error: no test specified\" && exit 1",
-                "build-css": "sass --include-path scss scss/index.scss"
+                "sass": "sass scss/index.scss css/translated.css -w",
+                "watch-css": "nodemon -e scss -x \"npm run sass\""
         },
         "repository": {
                 "type": "git",

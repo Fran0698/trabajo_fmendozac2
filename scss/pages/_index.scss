@@ -1,0 +1,54 @@
+/*BANNERR */
+#banner {
+        display: grid;
+        place-items: center;
+}
+
+/*HISTORIA*/
+#primer-historia {
+        padding: $sp-sm;
+}
+#primer-historia div {
+        gap: $sp-md;
+}
+.historia__article {
+        flex: 1 1 50%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+}
+
+.historia__article:first-of-type {
+        border-right: 4px solid white;
+}
+
+.historia__title {
+        font-size: $text-xs;
+        font-weight: 300;
+        margin-bottom: 2.2rem;
+        display: flex;
+        flex-direction: row;
+}
+
+.historia__text {
+        font-size: $text-sm;
+        font-weight: 300;
+        margin-bottom: 2.2rem;
+}
+
+/*MEDIAS*/
+@media screen and (max-width: 768px) {
+        .navbar {
+                /* flex-direction: column; */
+                align-items: center;
+        }
+
+        .navbar .menu {
+                /* justify-content: center; */
+                display: none;
+        }
+
+        .hamburger {
+                display: block;
+        }
+}

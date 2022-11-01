@@ -1,0 +1,44 @@
+/*header*/
+header {
+        padding: $sp-sm;
+        background-color: $secondary;
+        .navbar {
+                display: flex;
+                justify-content: space-between;
+                .navbar__link {
+                        /* min-width: 180px;
+                        max-width: 180px; */
+                        width: 100px;
+                        height: 68px;
+                        display: flex;
+                        justify-content: center;
+                        .navbar__img {
+                                width: 100%;
+                        }
+                        .hamburger {
+                                display: none;
+                                color: $cuarto;
+                        }
+                }
+                .menu {
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        gap: $sp-xs;
+
+                        &__link {
+                                padding: $sp-xs;
+                                transition: all 0.3s ease-in-out;
+                                -webkit-transition: all 0.3s ease-in-out;
+                                -moz-transition: all 0.3s ease-in-out;
+                                -ms-transition: all 0.3s ease-in-out;
+                                -o-transition: all 0.3s ease-in-out;
+                                &:hover {
+                                        background-color: black;
+                                        color: $secondary;
+                                        transition: all 0.3s ease-in-out;
+                                }
+                        }
+                }
+        }
+}

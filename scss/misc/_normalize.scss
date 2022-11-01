@@ -1,0 +1,47 @@
+/*Normalize*/
+
+* {
+        margin: 0;
+        padding: 0;
+        /* box-sizing: border-box; */
+}
+
+html {
+        font-family: 62, 5%;
+}
+
+body {
+        font-family: "Poppins", sans-serif;
+        color: $secondary;
+}
+
+ul {
+        list-style-type: none;
+}
+a {
+        display: inline-block;
+        font-size: $text-xs;
+        text-decoration: none;
+        color: $cuarto;
+}
+
+p {
+        font-size: 1.6em;
+        color: black;
+}
+
+img {
+        width: 100%;
+}
+
+.container {
+        max-width: 1200px;
+        margin: 0 auto;
+}
+.content {
+        max-width: 450px;
+}
+.bg-primary {
+        --bs-bg-opacity: 1;
+        background-color: white;
+}
